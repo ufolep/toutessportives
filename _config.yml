@@ -3,8 +3,7 @@
 
 # Site settings
 title: Toutes Sportives
-description: |
-  Ufolep s'engage pour le sport féminin
+description: Ufolep s'engage pour le sport féminin
 owner: Ufolep 
 email: nvincent.laligue@ufolep-usep.fr
 baseurl: "" # the subpath of your site, e.g. /blog
