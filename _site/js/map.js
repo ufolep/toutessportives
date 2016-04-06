@@ -23,7 +23,7 @@ function popUp(feature, layer) {
 }
 
 // call json
-var geojsonLayerComite = new L.GeoJSON.AJAX("/json/Comites.json/json/Comites.json",
+var geojsonLayerComite = new L.GeoJSON.AJAX("/json/Comites.json",
   {
       onEachFeature: popUp,
       pointToLayer: function (feature, latlng) {

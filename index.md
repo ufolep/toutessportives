@@ -6,10 +6,13 @@ ecran1:
     text: "Avec toutessportives"
 ecran2:
     title: "Se dépasser et se faire plaisir entre amies"
+    img: images/ecran3.jpg
 ecran3:
     title: "Le sport ne forge pas le caractère, il le revèle"
+    img: images/ecran4.jpg
 ecran4:
     title: "Ces femmes vont vous surprendre !"
+    img: images/ecran6.jpg
 bloc:
     title: "Toutes Sportives, c’est + que du sport"
     subtitle1: "Nouvelle inscrite ? Bénéficiez d’une licence à moindre coût"
