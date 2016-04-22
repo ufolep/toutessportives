@@ -1387,7 +1387,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 		z-index: _misc(z-index-base);
 
-		h1 {
+		h1, .like-title {
 			@include vendor('transition', 'opacity #{_duration(transitions)} ease');
 			height: inherit;
 			left: 1.25em;
@@ -1400,7 +1400,9 @@ $baseurl: '{{ site.baseurl }}/images';
 				display: block;
 				height: inherit;
 				line-height: inherit;
-
+				text-transform: uppercase;
+				font-weight:800;
+				color:#fff;
 				@include breakpoint(small) {
 					font-size: 0.8em;
 				}
@@ -1838,7 +1840,10 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.map {height:80em;display:block;}
-	/* required styles */
+.tags {margin:0 0 30px;padding:0;}
+.tags li {display:inline-block;list-style:none;}
+.tags a {display:block;padding:3px 5px;border:1px solid #F27859;color:#F27859;border-radius:4px;}
+/* required styles */
 
 .leaflet-map-pane,
 .leaflet-tile,
